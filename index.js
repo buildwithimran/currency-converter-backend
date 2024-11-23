@@ -27,6 +27,7 @@ mongoose
   .then(() => console.log("Connected to MongoDB"))
   .catch((err) => console.error("MongoDB connection error:", err));
 // Routes
+app.use("/", require("./routes/index.route"));
 app.use("/currency", require("./routes/currency.route"));
 
 // Error handling for 404
