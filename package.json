@@ -1,0 +1,21 @@
+{
+  "name": "currency-converter",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "@everapi/freecurrencyapi-js": "^1.0.1",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "debug": "^4.3.4",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "http-errors": "^2.0.0",
+    "mongoose": "^8.8.2",
+    "nodemon": "^3.0.2",
+    "pug": "^3.0.2"
+  }
+}
